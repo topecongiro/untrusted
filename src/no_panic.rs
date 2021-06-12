@@ -1,5 +1,5 @@
 /// A wrapper around a slice that exposes no functions that can panic.
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+#[derive(Clone, Copy, Debug)]
 pub struct Slice<'a> {
     bytes: &'a [u8],
 }
